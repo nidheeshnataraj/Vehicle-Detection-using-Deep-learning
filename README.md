@@ -8,24 +8,11 @@ This sample project focuses on "Vechicle Detection, Tracking and Counting" using
   <img src="https://user-images.githubusercontent.com/22610163/36344830-095cc4ec-1431-11e8-8e57-976c40d87cf9.gif">
 </p>
 
----
-
-***The developing is on progress! This sample project will be updated soon, the more talented traffic analyzer app will be available in this repo!***
-
----
-
-## General Capabilities of This Sample Project
-
-This sample project has more than just counting vehicles, here are the additional capabilities of it:
-
+## General Capabilities of This Project
 - Recognition of approximate vehicle color
 - Detection of vehicle direction of travel
 - Prediction the speed of the vehicle
 - Prediction of approximate vehicle size
-- **The images of detected vehicles are cropped from video frame and they are saved as new images under "[detected_vehicles](https://github.com/ahmetozlu/vehicle_counting_tensorflow/tree/master/detected_vehicles)" folder path**
-- **The program gives a .csv file as an output ([traffic_measurement.csv](https://github.com/ahmetozlu/vehicle_counting_tensorflow/blob/master/traffic_measurement.csv)) which includes "Vehicle Type/Size", " Vehicle Color", " Vehicle Movement Direction", " Vehicle Speed (km/h)" rows, after the end of the process for the source video file.**
-
-The input video can be accessible by this [link](https://github.com/ahmetozlu/vehicle_counting_tensorflow/blob/master/sub-1504614469486.mp4).
 
 ## Theory
 
@@ -35,9 +22,9 @@ The input video can be accessible by this [link](https://github.com/ahmetozlu/ve
   <img src="https://user-images.githubusercontent.com/22610163/35445395-8dba4406-02c2-11e8-84bf-b480edbe9472.jpg">
 </p>
 
-- Vehicle detection and classification have been developed using TensorFlow Object Detection API, [see](https://github.com/ahmetozlu/vehicle_counting_tensorflow/blob/master/vehicle_detection_main.py) for more info.
-- Vehicle speed prediction has been developed using OpenCV via image pixel manipulation and calculation, [see](https://github.com/ahmetozlu/vehicle_counting_tensorflow/tree/master/utils/speed_and_direction_prediction_module) for more info.
-- Vehicle color prediction has been developed using OpenCV via K-Nearest Neighbors Machine Learning Classification Algorithm is Trained Color Histogram Features, [see](https://github.com/ahmetozlu/vehicle_counting_tensorflow/tree/master/utils/color_recognition_module) for more info.
+- Vehicle detection and classification have been developed using TensorFlow Object Detection API,
+- Vehicle speed prediction has been developed using OpenCV via image pixel manipulation and calculation, .
+- Vehicle color prediction has been developed using OpenCV via K-Nearest Neighbors Machine Learning Classification Algorithm is Trained Color Histogram Features
 
 [TensorFlow™](https://www.tensorflow.org/) is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) communicated between them.
 
@@ -58,10 +45,6 @@ Source video is read frame by frame with OpenCV. Each frames is processed by ["S
 </p>
 
 By default I use an ["SSD with Mobilenet" model](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17) in this project. You can find more information about SSD in [here](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab). See the [detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for a list of other models that can be run out-of-the-box with varying speeds and accuracies.
-
-## Project Demo
-
-Demo video of the project is available on [My YouTube Channel](https://www.youtube.com/watch?v=PrqnhHf6fhM).
 
 ## Installation
 
