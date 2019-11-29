@@ -2,10 +2,7 @@
 This sample project focuses on "Vechicle Detection, Tracking and Counting" using [**TensorFlow Object Counting API**](https://github.com/ahmetozlu/tensorflow_object_counting_api). 
 
 ---
-
-***The [TensorFlow Object Counting API](https://github.com/ahmetozlu/tensorflow_object_counting_api) is used as a base for object counting on this project, more info can be found on this [repo](https://github.com/ahmetozlu/tensorflow_object_counting_api).***
-
----
+--
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/36344830-095cc4ec-1431-11e8-8e57-976c40d87cf9.gif">
@@ -99,20 +96,5 @@ If you are still getting problem about installation after completed the installa
 - After completing these 4 installation steps that are given at above, you can test the project by this command:
 
       python3 vehicle_detection_main.py
----
-
-## Citation
-If you use this code for your publications, please cite it as:
-
-    @ONLINE{vdtct,
-        author = "Ahmet Özlü",
-        title  = "Vehicle Detection, Tracking and Counting by TensorFlow",
-        year   = "2018",
-        url    = "https://github.com/ahmetozlu/vehicle_counting_tensorflow"
     }
 
-## Author
-Ahmet Özlü
-
-## License
-This system is available under the MIT license. See the LICENSE file for more info.
