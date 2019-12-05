@@ -26,9 +26,9 @@ This sample project focuses on "Vechicle Detection, Tracking and Counting" using
 - Vehicle speed prediction has been developed using OpenCV via image pixel manipulation and calculation, .
 - Vehicle color prediction has been developed using OpenCV via K-Nearest Neighbors Machine Learning Classification Algorithm is Trained Color Histogram Features
 
-[TensorFlow™](https://www.tensorflow.org/) is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) communicated between them.
+[TensorFlow™]is an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) communicated between them.
 
-[OpenCV (Open Source Computer Vision Library)](https://opencv.org/about.html) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
+[OpenCV (Open Source Computer Vision Library)]is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
 
 ### Tracker
 
@@ -44,9 +44,7 @@ Source video is read frame by frame with OpenCV. Each frames is processed by ["S
   <img src="https://user-images.githubusercontent.com/22610163/48481757-b1d5a900-e81f-11e8-824b-4317115fe5b4.png">
 </p>
 
-By default I use an ["SSD with Mobilenet" model](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17) in this project. You can find more information about SSD in [here](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab). See the [detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for a list of other models that can be run out-of-the-box with varying speeds and accuracies.
-
-## Installation
+By default I use an ["SSD with Mobilenet" model] in this project ## Installation
 
 **1.) Python and pip**
 
@@ -60,7 +58,7 @@ The pip or pip3 package manager is usually installed on Ubuntu. Take a moment to
     
 **2.) OpenCV**
 
-See required commands to install OpenCV on Ubuntu in [here](https://gist.github.com/dynamicguy/3d1fce8dae65e765f7c4).
+See required commands to install OpenCV on Ubuntu 
 
 **3.) TensorFlow**
 
@@ -68,15 +66,10 @@ Install TensorFlow by invoking one of the following commands:
 
     $ pip3 install tensorflow     # Python 3.n; CPU support (no GPU support)
     $ pip3 install tensorflow-gpu # Python 3.n; GPU support
-
-**4.) TensorFlow Object Detection API**
-
-See required commands to install TensorFlow Object Detection API on Ubuntu in [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md).
   
-If you are still getting problem about installation after completed the installation of the packet that are given above, please check that [link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) out to get detailed info about installation.
 
 ---
-- After completing these 4 installation steps that are given at above, you can test the project by this command:
+- After completing these 3 installation steps that are given at above, you can test the project by this command:
 
       python3 vehicle_detection_main.py
     }
